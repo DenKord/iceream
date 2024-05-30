@@ -626,6 +626,15 @@ body.active{
     width: 200px;
   }
 
+  .recipe__paragraph{
+    flex-direction: column;
+  }
+
+  .recipe__img{
+    max-width: 300px;
+    margin: 0;
+  }
+
   .line,
   .form {
     margin-bottom: 70px;
