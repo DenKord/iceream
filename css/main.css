@@ -826,7 +826,19 @@ body.active{
   .footer__link {
     font-size: 14px;
   }
+  @keyframes showlogo {
+    from {  width: 20%;}
+    to { width: 100%; }
+  }
+  .recipe__text{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateX(-20px);
+  }
 
+  .hero__logo{
+    width: 100%;
+  }
   .recipes__container {
     grid-template-columns: 1fr;
   }
